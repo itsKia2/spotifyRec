@@ -52,4 +52,11 @@ def tracksFromPlaylist(sp, creator, pID):
         track_df = pd.DataFrame(playlist_features, index=[0])
         playlist_df = pd.concat([playlist_df, track_df], ignore_index=True)
 
+    print("success: ")
+    print(playlist_df)
     return playlist_df
+
+
+def getPlaylistID(url):
+    playlist_id = url.split("/")[4].split("?")[0]
+    return playlist_id

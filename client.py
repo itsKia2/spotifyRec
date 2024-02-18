@@ -2,18 +2,19 @@ import spotipy
 from spotipy import SpotifyOAuth
 
 
-def connectClient():
+def connectClient(user):
     with open("secret.txt") as f:
         secret_ls = f.readlines()
-        spotipy_client_id = secret_ls[0][:-2]
-        spotipy_secret = secret_ls[1]
+        # -1 makes sure we dont get terminating value
+        spotipy_client_id = secret_ls[0][:-1]
+        spotipy_secret = secret_ls[1][:-1]
 
     spAuth = SpotifyOAuth(
         client_id=spotipy_client_id,
         client_secret=spotipy_secret,
         redirect_uri="http://localhost:8888/callback",
         scope="user-library-read",
-        username="itsKia2",
+        username=user,
         show_dialog=True,
     )
     sp = spotipy.Spotify(auth_manager=spAuth)
