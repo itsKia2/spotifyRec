@@ -1,28 +1,36 @@
 import pandas as pd
 
+playlist_features_list = [
+    "artist",
+    "album",
+    "track_name",
+    "track_id",
+    "danceability",
+    "energy",
+    "key",
+    "loudness",
+    "mode",
+    "speechiness",
+    "instrumentalness",
+    "liveness",
+    "valence",
+    "tempo",
+    "duration_ms",
+    "time_signature",
+]
+
+
+def mySavedTracks(sp):
+    response = sp.current_user_saved_tracks(limit=50)
+    counter = 0
+    for item in response["items"]:
+        track = item["track"]
+        print("%d - %32.32s %s" % (counter, track["artists"][0]["name"], track["name"]))
+        counter = counter + 1
+
 
 def tracksFromPlaylist(sp, creator, pID):
     # Create empty dataframe
-    sp = sp
-    playlist_features_list = [
-        "artist",
-        "album",
-        "track_name",
-        "track_id",
-        "danceability",
-        "energy",
-        "key",
-        "loudness",
-        "mode",
-        "speechiness",
-        "instrumentalness",
-        "liveness",
-        "valence",
-        "tempo",
-        "duration_ms",
-        "time_signature",
-    ]
-
     playlist_df = pd.DataFrame(columns=playlist_features_list)
 
     # Loop through every track in the playlist, extract features and append the features to the playlist df
