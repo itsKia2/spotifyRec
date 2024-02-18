@@ -8,9 +8,6 @@ def connectClient():
         spotipy_client_id = secret_ls[0][:-2]
         spotipy_secret = secret_ls[1]
 
-    spotipy_client_id = "946d1e1a7b65402ea435e9bf56ff8c1d"
-    spotipy_secret = "e5fbedb1a43940ce918cd60ec976977d"
-
     spAuth = SpotifyOAuth(
         client_id=spotipy_client_id,
         client_secret=spotipy_secret,
