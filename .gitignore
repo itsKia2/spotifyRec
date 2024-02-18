@@ -4,3 +4,5 @@ bin/
 include/
 lib/
 /lib64
+/clientID.txt
+/clientSecret.txt
