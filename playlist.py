@@ -1,7 +1,7 @@
 import pandas as pd
 
 
-def getPlaylist(sp, creator, pID):
+def tracksFromPlaylist(sp, creator, pID):
     # Create empty dataframe
     sp = sp
     playlist_features_list = [
