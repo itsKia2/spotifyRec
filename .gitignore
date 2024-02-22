@@ -8,3 +8,4 @@ lib/
 /.cache-itsKia2
 /.cache
 __pycache__/
+data/
