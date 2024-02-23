@@ -8,7 +8,6 @@ def extractFeat(sp, dataset):
     # df.head()
     # Edit the track-uris to a more usable format
     df["track_id"] = df["track_id"].apply(lambda x: re.findall(r'\w+$', x)[0])
-    df["track_id"]
     testDF = df
     ariFeatures(sp, df["track_id"][0])
     first_half = df["track_id"].unique()[:10000]
@@ -32,7 +31,8 @@ def extractFeat(sp, dataset):
         except:
             continue
     featureDF = pd.DataFrame(featureLIST)
-    new_df = pd.merge(testDF,featureDF, left_on = "track_id", right_on= "id")
+    useCols = featureDF.columns.difference(testDF.columns)
+    new_df = pd.merge(testDF, featureDF[useCols], left_on = "track_id", right_on= "id")
     new_df.to_csv('./data/processed_data.csv')
 
 def ariFeatures(sp, ari):
