@@ -1,6 +1,7 @@
 from client import *
 from playlist import *
 from ari import *
+from recommender import *
 
 creator = "itsKia2"
 url = getPlaylistID(
@@ -10,7 +11,12 @@ url = getPlaylistID(
 # pid = getPlaylistID(url)
 
 sp = connectClient(creator)
+
+
+# FIRST CHECK IF CSV FILES HAVE ALREADY BEEN CREATED BEFORE QUERYING SPOTIFY <----------------------------------------------
 # mySavedTracks(sp)
 # tracksFromPlaylist(sp, creator, url)
 # mySavedTracks(sp)
-extractFeat(sp, "./data/likedSongs.csv")
+
+extractFeat(sp, "./data/SHORTdataset.csv")
+processAllSongs()
