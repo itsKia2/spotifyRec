@@ -5,8 +5,8 @@ from tqdm import tqdm
 def extractFeat(sp, dataset):
     dataPath = dataset
     df = pd.read_csv(dataPath)
-    df.head()
-    #Edit the track-uris to a more usable format
+    # df.head()
+    # Edit the track-uris to a more usable format
     df["track_id"] = df["track_id"].apply(lambda x: re.findall(r'\w+$', x)[0])
     df["track_id"]
     testDF = df
@@ -46,7 +46,7 @@ def ariFeatures(sp, ari):
     #Add in extra features
     features["artist_pop"] = artist_pop
     if artist_genres:
-        features["genres"] = " ".join([re.sub(' ','_',i) for i in artist_genres])
+        features["genres"] = " ".join([re.sub(' ', '_', i) for i in artist_genres])
     else:
         features["genres"] = "unknown"
     features["track_pop"] = track_pop
