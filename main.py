@@ -1,6 +1,6 @@
-import spotipy
 from client import *
 from playlist import *
+from ari import *
 
 creator = "itsKia2"
 url = getPlaylistID(
@@ -8,4 +8,4 @@ url = getPlaylistID(
 )
 sp = connectClient(creator)
 # mySavedTracks(sp)
-tracksFromPlaylist(sp, creator, url)
+extractFeat(sp, "./data/likedSongs.csv")

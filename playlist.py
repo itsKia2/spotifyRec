@@ -46,7 +46,6 @@ def tracksFromPlaylist(sp, creator, pID):
     playlist_df = pd.DataFrame(columns=playlist_features_list)
 
     # Loop through every track in the playlist, extract features and append the features to the playlist df
-
     playlist = sp.user_playlist_tracks(creator, pID)["items"]
     for track in playlist:  # Create empty dict
         playlist_features = {}  # Get metadata
