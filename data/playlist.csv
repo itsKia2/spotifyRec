@@ -1,0 +1,53 @@
+,artist,album,track_name,track_id,danceability,energy,key,loudness,mode,speechiness,instrumentalness,liveness,valence,tempo,duration_ms,time_signature
+0,EDEN,i think you think too much of me,rock + roll,32hc0TYud2KzDkE0QggvHO,0.393,0.505,0,-7.011,0,0.0996,0.00682,0.21,0.391,64.491,296053,4
+1,Lauren Aquilina,Fools,King,0zhzkkSXFj60Y5fzb2j9hU,0.693,0.205,4,-9.403,1,0.0276,0.0,0.103,0.236,82.44,238000,4
+2,You Me At Six,Night People,Take on the World,036UzEmDiFdBup61c4a1qG,0.552,0.531,2,-6.466,1,0.0313,5.4e-06,0.0997,0.118,104.04,271307,4
+3,shy martin,Lose You Too,Lose You Too,5JkUNbYSn06ghlmu0NRUMf,0.445,0.357,7,-9.163,1,0.0445,0.0,0.356,0.159,147.062,186463,4
+4,Saint Claire,Smoked out of Heaven,Smoked out of Heaven,2p6ep0Z0LSxljfA52ltt9p,0.389,0.252,4,-10.163,1,0.0409,5.46e-05,0.1,0.318,85.037,245491,1
+5,Wayfarers,Swimming in Stars,Swimming in Stars,1pSHI1qhYz6KsPjzeaamRM,0.564,0.683,6,-6.04,1,0.0336,0.0,0.0713,0.193,115.055,198261,4
+6,Jacob Lee,Sine Qua Non,Heartstrings,0PwJDwFeyN49B5syuxy0GZ,0.559,0.641,7,-7.622,0,0.033,0.0,0.0886,0.324,110.053,222927,4
+7,Hozier,Almost (Sweet Music),Almost (Sweet Music),2e9N4vHYVUwSwRorBzsZXE,0.427,0.689,7,-5.589,1,0.135,1.69e-06,0.203,0.706,88.875,217480,4
+8,Strings,Dhaani,Mera Bichraa Yaar,2fxej3sTBAIyrJfObGrDHI,0.687,0.633,7,-7.638,1,0.0333,0.0175,0.0874,0.61,109.985,291840,4
+9,Ben Woodward,Don't Leave (Remix),Don't Leave (Remix),4GDSXO4fqrUfDgb24JavqL,0.568,0.523,10,-7.93,1,0.0518,0.0,0.215,0.33,121.882,174098,4
+10,Chester See,If We Were Vampires,If We Were Vampires,3klcbGg0LN2KO2wN5tqdZk,0.677,0.294,5,-10.158,1,0.0317,0.0,0.378,0.549,96.896,192990,4
+11,Crywolf,Dysphoria,Stomach It,1p7ec4hYOgmNw0lElbSOFh,0.599,0.313,11,-10.531,1,0.0386,6.8e-05,0.417,0.0692,121.986,346661,4
+12,Chase Holfelder,Let's Hurt Tonight,Let's Hurt Tonight,7tIT3GIY0wGOb8i1kcnilp,0.34,0.205,5,-7.72,1,0.0476,0.0,0.321,0.288,179.927,191980,3
+13,EDEN,vertigo,wings,2dua8jWJY9wZ0y5Y5I7bhG,0.348,0.464,9,-8.177,1,0.0589,4.44e-05,0.294,0.0676,82.034,177168,4
+14,Elizabeth Grace,Meteor Shower,Meteor Shower,7c66XZdiRRMsERTkwua7B1,0.419,0.5,4,-5.134,1,0.0268,0.0,0.104,0.249,144.776,269334,4
+15,Imagine Dragons,Smoke + Mirrors (Deluxe),Dream,5pryXvaRTif60GCf1e4rmc,0.379,0.513,1,-7.724,0,0.0492,3.24e-05,0.069,0.108,142.067,258000,4
+16,Bonjr,motionbliss,interstitial space,4r5p4gLTHTFBxUL6hxZZBS,0.494,0.39,7,-13.545,1,0.0305,0.934,0.088,0.108,103.275,192379,4
+17,Your Favorite Color,Heartache - EP,Their Way,44ARTxEXyCajc7yAq1hCU9,0.458,0.585,6,-7.289,1,0.0313,0.00325,0.151,0.248,159.872,279040,4
+18,DREAMERS,LAUNCH FLY LAND,Die Happy,6NJ5Q5QujNwwsst5mdSEfF,0.573,0.873,0,-3.838,1,0.0297,0.0,0.403,0.842,102.012,186903,4
+19,Run River North,Rearview,Rearview,6c0wahl7b3rEq2Srq7vVnf,0.574,0.675,11,-7.542,1,0.0318,0.00122,0.136,0.546,84.007,222913,4
+20,Of Monsters and Men,FEVER DREAM,Wild Roses,7f8iBUiwio1oX5lAFwC5xI,0.629,0.784,6,-6.377,0,0.0362,5.43e-05,0.233,0.356,116.021,242760,4
+21,Vancouver Sleep Clinic,Someone To Stay,Someone To Stay,7tMbZ0RGW0jFsBw7ipEPEV,0.436,0.473,1,-7.24,1,0.0307,4.35e-05,0.103,0.242,108.906,254013,4
+22,Jimmy Khan,Singles,Baarish,7n4IQvsxatFRudFhufw2ml,0.741,0.233,10,-21.563,1,0.0766,0.00172,0.108,0.889,117.582,238000,4
+23,Catherine Feeny,Hurricane Glass,Mr Blue,6ta5yavnnEfCE4faU0jebM,0.456,0.386,10,-10.293,1,0.032,0.108,0.389,0.612,165.733,154600,4
+24,Motherfolk,Die a Little More,Die a Little More,1OuOCd3tyJdMLQ1ngDsYQ6,0.503,0.65,4,-6.365,1,0.0317,0.0,0.0684,0.428,158.942,225347,4
+25,shy martin,Slow,Slow,1Ia95g66IhlAJ3qVI4qI8W,0.636,0.243,2,-9.509,1,0.04,0.0,0.111,0.239,142.016,163547,4
+26,blackbear,ANONYMOUS,NYLA,5ovclwxhDdIU5UfVioEhCx,0.567,0.195,9,-11.586,1,0.0345,0.0,0.473,0.193,119.819,252097,3
+27,UNSECRET,Can You Hear Me,Can You Hear Me,0zAKRYUs44kTyqAKP9bS3S,0.429,0.575,3,-7.626,0,0.0386,0.00353,0.102,0.155,139.965,237660,4
+28,Jackson Guthy,Giants,Giants,2R92Lq8g6bgcBAd8VFjQoF,0.405,0.651,10,-5.761,1,0.0583,0.0,0.13,0.156,154.707,190592,4
+29,SYML,Clean Eyes (Acoustic),Clean Eyes - Acoustic,1a9KbY1lTvSYuLCAsLf52E,0.616,0.369,9,-8.595,0,0.0465,0.0,0.102,0.145,147.903,222810,4
+30,Vian Izak,The Navigator,Morning Star,4JtWn10FGRtqDz9FEFF32N,0.286,0.423,6,-8.545,1,0.0343,0.000355,0.122,0.157,164.419,193354,3
+31,Matt Maeson,Bank On The Funeral,Dancing After Death,6FCWOKBTjzHsHpa0cF0br6,0.424,0.502,1,-6.345,0,0.029,0.0,0.0998,0.25,175.899,237280,3
+32,Eliza Grace,Long Suffering,Long Suffering,6CGJxETiAEv3VEHooVbmlU,0.401,0.447,11,-7.772,0,0.0295,7.57e-06,0.119,0.116,62.396,265038,3
+33,Fink,Hard Believer,Looking Too Closely,7bhI6rnvaVw8qgZPn32qE0,0.477,0.519,2,-12.461,1,0.0358,0.748,0.0949,0.102,175.094,310693,4
+34,PVRIS,Acoustic,Mind over Matter (Acoustic),3rUTBx7gmn1IAAwsrjtnO0,0.482,0.319,1,-8.707,0,0.0295,1.83e-05,0.145,0.138,94.989,203649,4
+35,Oh Wonder,Oh Wonder,All We Do,6Vigp41BietH0WoFZ52JI5,0.59,0.242,10,-11.724,0,0.0516,0.000124,0.0906,0.366,126.721,214174,4
+36,Lorde,Melodrama,Perfect Places,7ARveOiD31w2Nq0n5FsSf8,0.622,0.58,1,-5.273,0,0.0504,2.95e-05,0.112,0.512,104.41,221874,4
+37,Oh Wonder,Home Tapes,Don't You Worry,5XaGqclLmeuH0EBg75Li0n,0.528,0.242,9,-11.175,1,0.0593,0.0,0.0742,0.544,130.266,219880,4
+38,Aron Wright,Tightrope,Tightrope,1dWeWXI0lybdMHCEs5SRfR,0.436,0.157,0,-10.042,1,0.0342,0.000114,0.0909,0.184,132.767,246462,4
+39,Bo Burnham,INSIDE,All Eyes On Me (Song Only),5RXycwlyNdmAYB5srQ4lk2,0.247,0.442,6,-8.703,1,0.041,0.0,0.0655,0.261,62.952,212861,4
+40,Evergreen,Evergreen,Cosmic Lottery,6SCsB93mxSqHGmKCNfDfR4,0.487,0.706,11,-8.989,1,0.0465,0.00355,0.106,0.376,149.871,195669,4
+41,milk.,A Little More,A Little More,3O6FKYk4NiNkTnNJCO1rdV,0.485,0.489,1,-8.771,0,0.0303,0.0164,0.207,0.367,127.972,260528,4
+42,badly,I'm Okay Now,I'm Okay Now,6xcfvAdi2nPQVRJG8eSHzE,0.627,0.548,2,-7.372,1,0.047,2.93e-05,0.315,0.509,101.078,182970,4
+43,Andrew Belle,Dive Deep (Hushed),Dive Deep (Hushed),4VbDTk82rqWqVgoQC93CkC,0.507,0.378,9,-9.019,1,0.0332,0.000212,0.0937,0.085,135.86,218532,4
+44,Jackson Wooten,Dirt,Dirt,5Ca5lh6Ft0XwjicOh5seKk,0.482,0.337,0,-16.729,1,0.0353,0.817,0.0997,0.0675,122.063,325178,4
+45,Blake Rose,Gone,Gone,6sHxpnCerm9M6A5zaFFNfs,0.317,0.545,11,-6.439,0,0.0469,0.0,0.116,0.14,139.014,205462,5
+46,Bleachers,Take the Sadness Out of Saturday Night,Secret Life (feat. Lana Del Rey),0dagxop90zpA32LDwjAGVk,0.568,0.292,2,-14.316,1,0.0269,4.35e-06,0.341,0.501,75.065,186613,4
+47,Akshath,Noor,Noor,36zJvaFktpReO0ZpO7zK7H,0.528,0.415,0,-11.882,0,0.036,0.0307,0.0995,0.333,81.0,192593,4
+48,NEEVE,chaos of my mind,you&me,2begOhpLiY7tjIgrTy8Lcs,0.434,0.81,3,-4.809,1,0.0346,0.000356,0.259,0.363,100.003,200373,4
+49,Refs,Stories,Stories,2bPdZh5M3KWmUJE89Os171,0.58,0.493,8,-7.972,0,0.0419,9.62e-06,0.107,0.0762,121.638,219475,4
+50,Kaavish,Gunkali (Original Score),Bachpan,6soRqi7x53yQINVVnwK0GU,0.656,0.402,11,-10.765,1,0.0268,0.0292,0.107,0.288,127.975,313313,4
+51,Mitski,Laurel Hell,Love Me More,4PUT0cH2iggaje5hTJZeGe,0.55,0.707,1,-6.228,0,0.0324,2.26e-06,0.0982,0.491,136.309,212661,4
